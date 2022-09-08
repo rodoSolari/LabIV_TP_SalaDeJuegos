@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "app-juegos-54e79"
+  },
+  "targets": {
+    "app-juegos-54e79": {
+      "hosting": {
+        "SalaDeJuegos": [
+          "app-juegos-54e79"
+        ]
+      }
+    }
+  }
+}
