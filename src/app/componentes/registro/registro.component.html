@@ -12,11 +12,14 @@
         <div class="row">
             <div class="colm-form">
                 <div class="form-container">
+                    <input type="text" placeholder="Nombre" [(ngModel)]="this.usuario.nombre">
                     <input type="text" placeholder="email" [(ngModel)]="this.usuario.email">
                     <input type="password" placeholder="Password" [(ngModel)]="this.usuario.clave">
-                    <button class="btn-login" (click)="login()">Login</button>
-                    <button class="btn-new" (click)="llenarDatosUsuario()">Ingresar como usuario</button>
-                    <!--<button class="btn-new">Registrarse</button>-->
+                    
+                    <button class="btn-new" (click)="register()">Registrarse</button>
+                </div>
+                <div>
+                    <p>{{this.mensaje}}</p>
                 </div>
                 <!--<p><a href="#"><b>Create a Page</b></a> for a celebrity, brand or business.</p>-->
             </div>
